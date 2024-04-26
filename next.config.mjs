@@ -31,8 +31,8 @@ const nextConfig = {
   // Optionally, add any other Next.js config below
 };
 
-// const withMDX = createMDX({
-//   // Add markdown plugins here, as desired
-// })
+const withMDX = createMDX({
+  // Add markdown plugins here, as desired
+})
 
-export default nextConfig
+export default withMDX(nextConfig)
